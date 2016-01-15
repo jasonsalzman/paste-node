@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 
 module.exports = function () {
 	var mongodb = process.env.MONGOLAB_URI || 'mongodb://localhost/paste';
-	mongoose.connect(config.db);
+	mongoose.connect(mongodb);
 
 	mongoose.connection.once('open', function () {
 		util.log('MongoDB connection open');
