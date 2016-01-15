@@ -10,7 +10,7 @@ module.exports = {
 			if (lang) {
 				yield this.render('highlight', {
 					pretty: config.prettyHtml,
-					title: 'Paste ' + paste.id,
+					title: 'PasteNode ' + paste.id,
 					paste: paste.paste,
 					lang: lang
 				});

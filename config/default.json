@@ -1,6 +1,4 @@
 {
-  "port": 3000,
-  "db": "localhost/paste",
   "cacheAge": 86400,
   "sizeLimit": "2mb",
   "prettyHtml": true,
