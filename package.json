@@ -1,5 +1,5 @@
 {
-  "name": "paste node",
+  "name": "paste-node",
   "version": "0.0.1",
   "description": "Simple Node.js pastebin clone",
   "license": "MIT",
